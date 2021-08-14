@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-index-html-configmap
+  namespaces: development
+data:
+  index.html: |
+    <html>
+    <h1>Hi ! All</h1>
+    </br>
+    <h1>Welcome This is a configmap Index file </h1>
+    </html>
